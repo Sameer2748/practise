@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(45, 45, 45);
+}
+
+main {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    /* why setting height: 100vh to main element give gap so much between inner elemets. */
+}
+
+h1 { color : #f00; }
+
+b {
+    color: #0ff;
+    font-size: 1.5rem;
+}
